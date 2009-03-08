@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <title>John Trupiano's RubyForge Projects</title>
+  <link type="text/css" rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="main">
+  <% projects.each do |project| %>
+    <div class="project">
+      <h2><%= project['name'] %></h2>
+      <div class="links">
+        <ul>
+          <li>Current Release: <%= project['release'] %></li>
+          <li><a href="<%= project['api_url'] %>">API Documentation</a></li>
+          <li>Released on <%= project['released'] %></li>
+          <li><a href="<%= project['source_url'] %>">Source Code on Github</a></li>
+        </ul>
+      </div>
+      <br style="clear: both;" />
+      <div class="description">
+        <%= project['description'] %>
+      </div>
+    </div>
+  <% end %>
+  </div>
+</body>
+</html>

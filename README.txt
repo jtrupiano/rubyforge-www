@@ -1,0 +1,1 @@
+Simply a repository for managing my homepage on RubyForge: http://johntrupiano.rubyforge.org/

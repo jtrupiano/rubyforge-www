@@ -1,0 +1,43 @@
+
+div#main {
+  width: 700px;
+}
+
+  div.project {
+    width: 600px;
+    border: solid 1px #333333;
+    background-color: #e0e0e0;
+    padding: 3px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+  
+    div.project h2 {
+      color: #b22222;
+      margin-left: 10px;
+      margin-top: 5px;
+      font-size: 36px;
+      float: left;
+    }
+    
+    div.project div.links {
+      float: right;
+      width: 250px;
+      font-size: 14px;
+    }
+    
+      div.project div.links ul {
+        margin: 0;
+      }
+      
+      div.project div.links li {
+        margin: 0;
+        list-style-type: none;
+      }
+          
+    div.project div.description {
+      clear: both;
+      font-size: 12px;
+      padding: 8px;
+    }
+    

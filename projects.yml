@@ -1,0 +1,49 @@
+projects:
+  - name: timecop
+    release: 0.2.1
+    api_url: http://johntrupiano.rubyforge.org/timecop
+    released: March 6, 2009
+    source_url: http://github.com/jtrupiano/timecop
+    description: A gem providing simple ways to mock Time.now, Date.today, and DateTime.now. It provides "time travel" and "time freezing" capabilities, making it dead simple to test time-dependent code.
+  
+  - name: timecop-console
+    release: 0.1.0
+    api_url: http://johntrupiano.rubyforge.org/timecop-console
+    released: March 8, 2009
+    source_url: http://github.com/jtrupiano/timecop-console
+    description: timecop-console exposes controllers/routes for manipulating Time.now (using the Timecop gem) from your app. This is especially useful during development and QA, as you can very easily simulate the movement of time. Just as timecop gives you this ability within your tests, you can now easily make this available to your dev and QA team through a debug console. 
+    
+  - name: environmentalist
+    release: 0.2.1
+    api_url: http://johntrupiano.rubyforge.org/environmentalist
+    released: March 6, 2009
+    source_url: http://github.com/jtrupiano/environmentalist
+    description: Provides an executable that converts a rails app‘s config structure. The basic idea is that environments themselves are now first-class citizens, allowing you to create several environments (e.g. staging, prodtest, demo, etc.) in a clean, organized fashion. Each environment is given its own folder where it can store its own set of configuration files (think mongrel configs, apache configs, etc.) without polluting the top-leve config/ directory.
+    
+  - name: story-helper
+    release: 0.2.0
+    api_url: http://johntrupiano.rubyforge.org/story-helper
+    released: January 30, 2009
+    source_url: http://github.com/jtrupiano/story-helper
+    description: Provides very basic baseline for using direct Ruby to define your test data and test accessors. Still a work in progress, but something we use at SLS in lieu of fixtures. More details to come as this becomes more useful to others.
+    
+  - name: foreigner
+    release: 0.1.0
+    api_url: http://johntrupiano.rubyforge.org/foreigner
+    released: September 12, 2008
+    source_url: http://github.com/jtrupiano/foreigner
+    description: This gem installs a ruby executable (foreigner) that will inspect a rails project‘s models and verify that their associations have a one-to-one correlation with the foreign key constraints set up in the MySQL database.
+    
+  - name: capistrano-extensions
+    release: 0.1.5
+    api_url: http://johntrupiano.rubyforge.org/capistrano-extensions
+    released: February 22, 2009
+    source_url: http://github.com/jtrupiano/capistrano-extensions
+    description: A base set of Capistrano extensions-- aids with the file_column plugin, the GemInstaller gem, multiple deployable environments, logfile helpers, and database/asset
+  
+  - name: passenger-recipes
+    release: 0.1.2
+    api_url: http://johntrupiano.rubyforge.org/passenger-recipes
+    released: September 12, 2008
+    source_url: http://github.com/jtrupiano/passenger-recipes
+    description: Contains a set of Phusion Passenger-specific Capistrano deployment recipes (depends on capistrano-extensions)
